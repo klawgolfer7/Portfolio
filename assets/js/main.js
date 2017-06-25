@@ -1,6 +1,10 @@
-jQuery(document).ready(function($) {
+$(document).ready(function($) {
 
-
+    $(".element").typed({
+        showCursor: false,
+        strings: ["Quick study and dedicated lifelong learner of new technologies. Proficient in Javascript, jQuery, HTML5, CSS3, Bootstrap, Node.js, Express, MySQL, Firebase, Mongo and React. I am a computer programmer who enjoys sports and playing video games. I have built my own personal computers in the past.", "Quick study and dedicated lifelong learner of new technologies. Proficient in Javascript, jQuery, HTML5, CSS3, Bootstrap, Node.js, Express, MySQL, Firebase, Mongo and React. I am a computer programmer who enjoys sports and playing video games. I have built my own personal computers in the past.", "Quick study and dedicated lifelong learner of new technologies. Proficient in Javascript, jQuery, HTML5, CSS3, Bootstrap, Node.js, Express, MySQL, Firebase, Mongo and React. I am a computer programmer who enjoys sports and playing video games. I have built my own personal computers in the past.", "Quick study and dedicated lifelong learner of new technologies. Proficient in Javascript, jQuery, HTML5, CSS3, Bootstrap, Node.js, Express, MySQL, Firebase, Mongo and React. I am a computer programmer who enjoys sports and playing video games. I have built my own personal computers in the past."],
+        typeSpeed: 0
+      });
     /*======= Skillset *=======*/
     
     $('.level-bar-inner').css('width', '0');
