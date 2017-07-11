@@ -4,6 +4,7 @@ $(document).ready(function($) {
         showCursor: false,
         strings: ["Quick study and dedicated lifelong learner of new technologies. Proficient in Javascript, jQuery, HTML5, CSS3, Bootstrap, Node.js, Express, MySQL, Firebase, Mongo and React. I am a computer programmer who enjoys sports and playing video games. I have built my own personal computers in the past.", "Quick study and dedicated lifelong learner of new technologies. Proficient in Javascript, jQuery, HTML5, CSS3, Bootstrap, Node.js, Express, MySQL, Firebase, Mongo and React. I am a computer programmer who enjoys sports and playing video games. I have built my own personal computers in the past.", "Quick study and dedicated lifelong learner of new technologies. Proficient in Javascript, jQuery, HTML5, CSS3, Bootstrap, Node.js, Express, MySQL, Firebase, Mongo and React. I am a computer programmer who enjoys sports and playing video games. I have built my own personal computers in the past.", "Quick study and dedicated lifelong learner of new technologies. Proficient in Javascript, jQuery, HTML5, CSS3, Bootstrap, Node.js, Express, MySQL, Firebase, Mongo and React. I am a computer programmer who enjoys sports and playing video games. I have built my own personal computers in the past."],
         typeSpeed: 0
+        
       });
     /*======= Skillset *=======*/
     
@@ -63,7 +64,7 @@ $(document).ready(function($) {
     
     
     /* Github Activity Feed - https://github.com/caseyscarborough/github-activity */
-    GitHubActivity.feed({ username: "caseyscarborough", selector: "#ghfeed" });
+    GitHubActivity.feed({ username: "klawgolfer7", selector: "#ghfeed" });
 
 
 });
