@@ -36,9 +36,11 @@ a:hover {
   text-decoration: underline;
   color: #5f6b77;
   color: #2d844e;
+  cursor: pointer;
 }
 a:focus {
   text-decoration: none;
+  cursor: pointer;
 }
 .btn,
 a.btn {
