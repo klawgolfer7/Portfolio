@@ -45,10 +45,25 @@
 </head> 
 
 <body>
+  <!-- Navbar -->
+      <div class="nav-wrapper">
+<!--       <div id="menu-icon">&#9776;</div> -->
+      <nav>
+        <ul>
+          <li class="current"><a href="#aboutMe">About Me</a></li>
+          <li><a href="#projectList">Projects</a></li>
+          <li><a href="#experienceList">Experience</a></li>
+          <li><a href="#skillList">Skills</a></li>
+          <li><a href="#educationList">Education</a></li>
+
+        </ul>
+      </nav>  
+
+    </div>
     <!-- ******HEADER****** --> 
-    <header class="header">
-        <div class="container">                       
-            <img class="profile-image img-responsive pull-left" src="assets/images/GithubPic.jpeg" alt="James Lee" />
+    <header class="header" style="background-color: #DAE3E7;">
+        <div class="container" >                       
+            <img class="profile-image img-responsive pull-left" src="assets/images/GithubPic.jpeg" alt="Kevin Lawler" />
             <div class="profile-content pull-left">
                 <h1 class="name">Kevin Lawler</h1>
                 <h2 class="desc">Web Developer</h2>
@@ -58,7 +73,7 @@
                     <li class="last-item"><a href="#"><i class="fa fa-hacker-news"></i></a></li>                 
                 </ul> 
             </div><!--//profile-->
-            <a class="btn btn-cta-primary pull-right" href="mailto:kevinrlawler@gmail.com" target="_blank"><i class="fa fa-paper-plane"></i> Contact Me</a>
+            <a class="btn btn-cta-primary pull-right" href="mailto:kevinrlawler@gmail.com" target="_blank"><i class="fa fa-paper-plane"></i> Hire Me!</a>
         </div><!--//container-->
     </header><!--//header-->
     
@@ -67,7 +82,7 @@
             <div class="primary col-md-8 col-sm-12 col-xs-12">
                 <section class="about section">
                     <div class="section-inner">
-                        <h2 class="heading">About Me</h2>
+                        <h2 class="heading" id="aboutMe">About Me</h2>
 
                         
                         <div class="content">
@@ -83,7 +98,7 @@
     
                <section class="latest section">
                     <div class="section-inner">
-                        <h2 class="heading">Latest Projects</h2>
+                        <h2 class="heading" id="projectList">Latest Projects</h2>
                         <div class="content">    
                                                
                             <div class="item featured text-center">
@@ -181,7 +196,7 @@
                 
                 <section class="experience section">
                     <div class="section-inner">
-                        <h3 class="heading">Relevant Professional Experience</h3>
+                        <h3 class="heading" id="experienceList">Relevant Professional Experience</h3>
                         <div class="content">
                             <div class="item">
                                 <h3 class="title">Account Manager - <span class="place"><a href="https://www.linkedin.com/in/kevin-lawler/" target="_blank">Randstad Technologies/Modis</a></span> <span class="year">(June 2015 - June 2017)</span></h3>
@@ -250,7 +265,7 @@
                 
                 <aside class="skills aside section">
                     <div class="section-inner">
-                        <h2 class="heading">Skills</h2>
+                        <h2 class="heading" id="skillList">Skills</h2>
                         <div class="content">
                             <p class="intro">
                                 I've learned my coding skills through both bootcamps I have graduated from as well as teaching myself via online learning and past and ongoing projects.  I am continuing my education by creating new projects and taking more courses to further my knowledge and skills.</p>
@@ -297,7 +312,7 @@
                 
                 <aside class="education aside section">
                     <div class="section-inner">
-                        <h2 class="heading">Education</h2>
+                        <h2 class="heading" id="educationList">Education</h2>
                         <div class="content">
                             <div class="item">                      
                                 <h3 class="title"><i class="fa fa-graduation-cap"></i>Certification, Computer Software Engineering</h3>

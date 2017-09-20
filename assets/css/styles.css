@@ -159,6 +159,32 @@ iframe {
   color: #fff;
   text-align: center;
 }
+.nav-wrapper {
+  text-align: center;
+  background-color: #DAE3E7;
+  opacity: .8;
+/*  background: (255,2 55,255,0.5);*/
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav-wrapper ul {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-wrapper li {
+  display: inline-block;
+  padding: 10px;
+
+}
+
+.nav-wrapper a {
+  color: blue;
+}
 .header .profile-content .social a:hover {
   background: #778492;
 }
